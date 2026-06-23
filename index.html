@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<style>
+  @page { size: A4; margin: 2.5cm 2cm; }
+  body { font-family: "Times New Roman", serif; font-size: 11pt; color: #000; max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.4; }
+  h1 { font-size: 13pt; text-align: center; text-transform: uppercase; margin-bottom: 4px; }
+  h2 { font-size: 12pt; text-align: center; margin-top: 2px; margin-bottom: 12px; }
+  h3 { font-size: 11.5pt; text-transform: uppercase; margin-top: 18px; margin-bottom: 6px; border-bottom: 1px solid #000; padding-bottom: 2px; }
+  .header-box { border: 2px solid #000; padding: 10px 14px; margin-bottom: 16px; }
+  .header-box table { width: 100%; border-collapse: collapse; }
+  .header-box td { padding: 2px 6px; font-size: 10.5pt; }
+  .header-box td:first-child { font-weight: bold; width: 38%; }
+  table.main { width: 100%; border-collapse: collapse; margin: 10px 0 16px 0; font-size: 10pt; }
+  table.main th { background: #1a3a5c; color: #fff; padding: 7px 6px; text-align: center; font-size: 10pt; }
+  table.main td { border: 1px solid #555; padding: 6px 7px; vertical-align: top; }
+  table.main tr:nth-child(even) td { background: #f0f4f8; }
+  table.calc { width: 100%; border-collapse: collapse; margin: 8px 0 14px 0; font-size: 10pt; }
+  table.calc th { background: #2c5282; color: #fff; padding: 5px 8px; }
+  table.calc td { border: 1px solid #aaa; padding: 5px 8px; vertical-align: top; }
+  table.calc tr.total td { font-weight: bold; background: #dce8f5; }
+  .caso-box { border: 1px solid #bbb; border-left: 4px solid #1a3a5c; padding: 10px 14px; margin-bottom: 14px; background: #fafcff; }
+  .caso-box h4 { margin: 0 0 6px 0; font-size: 11pt; color: #1a3a5c; }
+  .nota { background: #fffde7; border-left: 4px solid #f9a825; padding: 8px 12px; font-size: 10pt; margin: 10px 0; }
+  .firma-bloque { display: flex; justify-content: space-between; margin-top: 40px; }
+  .firma-item { text-align: center; width: 30%; }
+  .firma-linea { border-top: 1px solid #000; margin-bottom: 4px; }
+  .firma-item p { margin: 2px 0; font-size: 9.5pt; }
+  p { margin: 6px 0; text-align: justify; }
+  ul { margin: 4px 0 6px 18px; }
+  li { margin-bottom: 3px; }
+  .tag-rimpe { display: inline-block; background: #1a3a5c; color: #fff; font-size: 9pt; padding: 1px 6px; border-radius: 3px; }
+  .tag-general { display: inline-block; background: #276221; color: #fff; font-size: 9pt; padding: 1px 6px; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<div class="header-box">
+  <table>
+    <tr><td>Institución:</td><td>Universidad de Guayaquil – Facultad de Filosofía, Letras y Ciencias de la Educación</td></tr>
+    <tr><td>Carrera:</td><td>Pedagogía en Ciencias Experimentales de la Informática</td></tr>
+    <tr><td>Actividad:</td><td>Actividad Semanal #1 – Ejercicio Práctico 1</td></tr>
+    <tr><td>Tema:</td><td>Identificación de Obligaciones Tributarias</td></tr>
+    <tr><td>Estudiante:</td><td>César Luis Camba Martínez</td></tr>
+    <tr><td>Fecha:</td><td>Junio 2026</td></tr>
+  </table>
+</div>
+
+<h3>1. Marco Teórico – Regímenes Tributarios Vigentes</h3>
+
+<p>A partir del año <strong>2022</strong>, el Servicio de Rentas Internas (SRI) eliminó el Régimen de Microempresas y lo reemplazó por el <strong>RIMPE (Régimen Simplificado para Emprendedores y Negocios Populares)</strong>, establecido mediante la Ley Orgánica para el Desarrollo Económico y Sostenibilidad Fiscal. El RIMPE se divide en dos categorías:</p>
+
+<table class="main">
+  <thead>
+    <tr>
+      <th>Categoría RIMPE</th>
+      <th>Ingresos Brutos Anuales</th>
+      <th>Tarifa / Cuota</th>
+      <th>Comprobantes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Negocio Popular</strong></td>
+      <td>Hasta $20.000,00</td>
+      <td>Cuota fija: <strong>$60,00 anuales</strong></td>
+      <td>Notas de venta (no facturas)</td>
+    </tr>
+    <tr>
+      <td><strong>Emprendedor</strong></td>
+      <td>$20.001,00 – $300.000,00</td>
+      <td>Tabla progresiva RIMPE Emprendedor</td>
+      <td>Facturas electrónicas</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="nota">
+  <strong>Nota importante:</strong> Los profesionales con título universitario de libre ejercicio (médicos, abogados, diseñadores, etc.) <em>no pueden acogerse al RIMPE</em>. Deben tributar bajo el <strong>Régimen General</strong>, declarando Impuesto a la Renta anual y, si corresponde, IVA mensual o semestral.
+</div>
+
+<h3>2. Tabla de Identificación de Obligaciones Tributarias</h3>
+
+<table class="main">
+  <thead>
+    <tr>
+      <th>Contribuyente</th>
+      <th>Actividad Económica</th>
+      <th>Ingresos Mensuales</th>
+      <th>Ingresos Anuales</th>
+      <th>Tipo de Contribuyente</th>
+      <th>Régimen Tributario</th>
+      <th>Obligaciones ante el SRI</th>
+      <th>Comprobantes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Alexandra</strong></td>
+      <td>Venta de ropa desde su domicilio</td>
+      <td>$700,00</td>
+      <td>$8.400,00</td>
+      <td>Persona Natural – <span class="tag-rimpe">Negocio Popular</span></td>
+      <td>RIMPE Negocio Popular</td>
+      <td>
+        <ul>
+          <li>Inscripción en el RUC</li>
+          <li>Pago de cuota fija anual de <strong>$60,00</strong></li>
+          <li>No declara IVA de forma periódica</li>
+          <li>No declara Impuesto a la Renta por separado</li>
+        </ul>
+      </td>
+      <td>Notas de venta (RISE-RIMPE)</td>
+    </tr>
+    <tr>
+      <td><strong>Ángel</strong></td>
+      <td>Tienda de celulares (comercio)</td>
+      <td>$3.000,00</td>
+      <td>$36.000,00</td>
+      <td>Persona Natural – <span class="tag-rimpe">Emprendedor</span></td>
+      <td>RIMPE Emprendedor</td>
+      <td>
+        <ul>
+          <li>Inscripción en el RUC</li>
+          <li>Declaración Impuesto a la Renta (tabla RIMPE Emprendedor)</li>
+          <li>Declaración mensual de IVA (Form. 104)</li>
+          <li>Declaración de retenciones en la fuente (si aplica)</li>
+          <li>Llevar registros contables básicos</li>
+        </ul>
+      </td>
+      <td>Facturas electrónicas</td>
+    </tr>
+    <tr>
+      <td><strong>Rafaela</strong></td>
+      <td>Servicios de diseño gráfico (profesional independiente)</td>
+      <td>No especificado</td>
+      <td>Variable</td>
+      <td>Persona Natural – <span class="tag-general">Régimen General</span> (Libre ejercicio profesional)</td>
+      <td>Régimen General (excluida del RIMPE)</td>
+      <td>
+        <ul>
+          <li>Inscripción en el RUC</li>
+          <li>Declaración anual de Impuesto a la Renta (Form. 102)</li>
+          <li>Declaración de IVA mensual o semestral (Form. 104)</li>
+          <li>Llevar registro de ingresos y gastos</li>
+          <li>Emitir comprobantes por cada servicio prestado</li>
+        </ul>
+      </td>
+      <td>Facturas electrónicas</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>3. Cálculo del Impuesto a la Renta por Caso</h3>
+
+<!-- CASO 1 -->
+<div class="caso-box">
+  <h4>Caso 1 – Alexandra (RIMPE Negocio Popular)</h4>
+  <p><strong>Ingresos anuales:</strong> $700 × 12 = <strong>$8.400,00</strong></p>
+  <p>Al pertenecer a la categoría de <strong>Negocio Popular</strong> (ingresos anuales ≤ $20.000), Alexandra no liquida un Impuesto a la Renta progresivo. En su lugar, paga una <strong>cuota fija única establecida por el SRI</strong>:</p>
+
+  <table class="calc">
+    <tr><th>Concepto</th><th>Valor</th></tr>
+    <tr><td>Ingresos brutos anuales</td><td>$8.400,00</td></tr>
+    <tr><td>Categoría RIMPE</td><td>Negocio Popular</td></tr>
+    <tr class="total"><td>Cuota fija anual (Impuesto a la Renta RIMPE)</td><td><strong>$60,00</strong></td></tr>
+  </table>
+  <p>Esta cuota reemplaza al Impuesto a la Renta convencional. No se aplican deducciones ni tabla progresiva.</p>
+</div>
+
+<!-- CASO 2 -->
+<div class="caso-box">
+  <h4>Caso 2 – Ángel (RIMPE Emprendedor)</h4>
+  <p><strong>Ingresos anuales:</strong> $3.000 × 12 = <strong>$36.000,00</strong></p>
+  <p>Ángel pertenece a la categoría <strong>Emprendedor</strong> (ingresos entre $20.001 y $300.000). El Impuesto a la Renta se calcula con la <strong>tabla progresiva RIMPE Emprendedor</strong>:</p>
+
+  <table class="calc">
+    <thead>
+      <tr><th>Fracción Básica</th><th>Exceso Hasta</th><th>Impuesto Fracción Básica</th><th>% sobre el Excedente</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>$0,00</td><td>$20.000,00</td><td>$0,00</td><td>0%</td></tr>
+      <tr style="background:#dce8f5;"><td><strong>$20.001,00</strong></td><td><strong>$50.000,00</strong></td><td><strong>$0,00</strong></td><td><strong>1,0%</strong></td></tr>
+      <tr><td>$50.001,00</td><td>$100.000,00</td><td>$300,00</td><td>1,5%</td></tr>
+      <tr><td>$100.001,00</td><td>$200.000,00</td><td>$1.050,00</td><td>2,0%</td></tr>
+      <tr><td>$200.001,00</td><td>$300.000,00</td><td>$3.050,00</td><td>3,0%</td></tr>
+    </tbody>
+  </table>
+
+  <table class="calc" style="margin-top:8px;">
+    <tr><th>Concepto</th><th>Cálculo</th><th>Valor</th></tr>
+    <tr><td>Ingresos brutos anuales</td><td>$3.000 × 12</td><td>$36.000,00</td></tr>
+    <tr><td>Fracción básica aplicable</td><td>Tramo: $20.001 – $50.000</td><td>$0,00</td></tr>
+    <tr><td>Excedente sobre fracción básica</td><td>$36.000 – $20.000</td><td>$16.000,00</td></tr>
+    <tr><td>Impuesto sobre el excedente</td><td>$16.000 × 1%</td><td>$160,00</td></tr>
+    <tr class="total"><td colspan="2"><strong>Impuesto a la Renta RIMPE Emprendedor (anual)</strong></td><td><strong>$160,00</strong></td></tr>
+  </table>
+</div>
+
+<!-- CASO 3 -->
+<div class="caso-box">
+  <h4>Caso 3 – Rafaela (Régimen General – Libre Ejercicio Profesional)</h4>
+  <p>Rafaela, como profesional independiente, tributa bajo el <strong>Régimen General</strong>. El Impuesto a la Renta se calcula sobre sus <strong>ingresos netos</strong> (ingresos brutos menos gastos deducibles) aplicando la tabla progresiva para personas naturales.</p>
+  <p><em>El problema no especifica el ingreso mensual de Rafaela</em>, por lo que se utiliza el dato estimado equivalente a un promedio profesional referencial para ilustrar el cálculo. <strong>Si el tutor provee el dato, se actualiza el cálculo con la misma fórmula.</strong></p>
+
+  <table class="calc">
+    <thead>
+      <tr><th>Fracción Básica</th><th>Exceso Hasta</th><th>Impuesto Fracc. Básica</th><th>% Excedente</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>$0,00</td><td>$11.722,00</td><td>$0,00</td><td>0%</td></tr>
+      <tr><td>$11.722,01</td><td>$14.960,00</td><td>$0,00</td><td>5%</td></tr>
+      <tr><td>$14.960,01</td><td>$19.682,00</td><td>$162,00</td><td>10%</td></tr>
+      <tr><td>$19.682,01</td><td>$26.031,00</td><td>$634,00</td><td>12%</td></tr>
+      <tr><td>$26.031,01</td><td>$34.255,00</td><td>$1.396,00</td><td>15%</td></tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top:8px;"><strong>Procedimiento general:</strong></p>
+  <ul>
+    <li>Se determinan los <em>ingresos brutos anuales</em> de todos los servicios prestados.</li>
+    <li>Se restan los <em>gastos deducibles</em> permitidos por la LORTI (gastos personales, costos operativos).</li>
+    <li>La <em>base imponible</em> resultante se ubica en la tabla progresiva vigente del SRI.</li>
+    <li>Se aplica: <strong>IR = Impuesto fracción básica + (Base imponible – Fracción básica) × % excedente</strong></li>
+  </ul>
+  <p>Adicionalmente, Rafaela debe declarar y pagar <strong>IVA (12%)</strong> sobre los servicios facturados, mensual o semestralmente según corresponda.</p>
+</div>
+
+<h3>4. Cuadro Resumen Comparativo</h3>
+
+<table class="main">
+  <thead>
+    <tr>
+      <th>Criterio</th>
+      <th>Alexandra (Negocio Popular)</th>
+      <th>Ángel (Emprendedor)</th>
+      <th>Rafaela (Régimen General)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Régimen</strong></td>
+      <td>RIMPE – Negocio Popular</td>
+      <td>RIMPE – Emprendedor</td>
+      <td>Régimen General</td>
+    </tr>
+    <tr>
+      <td><strong>Ingresos anuales</strong></td>
+      <td>$8.400,00</td>
+      <td>$36.000,00</td>
+      <td>No especificado</td>
+    </tr>
+    <tr>
+      <td><strong>Impuesto a la Renta</strong></td>
+      <td>$60,00 (cuota fija)</td>
+      <td>$160,00 (tabla progresiva RIMPE)</td>
+      <td>Tabla progresiva personas naturales (según ingreso neto)</td>
+    </tr>
+    <tr>
+      <td><strong>IVA</strong></td>
+      <td>No aplica</td>
+      <td>Declaración mensual (Form. 104)</td>
+      <td>Declaración mensual o semestral (Form. 104)</td>
+    </tr>
+    <tr>
+      <td><strong>Comprobantes</strong></td>
+      <td>Notas de venta</td>
+      <td>Facturas electrónicas</td>
+      <td>Facturas electrónicas</td>
+    </tr>
+    <tr>
+      <td><strong>Contabilidad</strong></td>
+      <td>No obligada</td>
+      <td>Registros básicos</td>
+      <td>Registro de ingresos y gastos (si no supera límite de contabilidad obligatoria)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>5. Referencias Bibliográficas</h3>
+<p>Asamblea Nacional del Ecuador. (2004). <em>Ley Orgánica de Régimen Tributario Interno (LORTI)</em>. Registro Oficial Suplemento 463. Última modificación 2023.</p>
+<p>Asamblea Nacional del Ecuador. (2021). <em>Ley Orgánica para el Desarrollo Económico y Sostenibilidad Fiscal tras la pandemia COVID-19</em>. Registro Oficial Suplemento 587.</p>
+<p>Servicio de Rentas Internas. (2022). <em>RIMPE: Régimen Simplificado para Emprendedores y Negocios Populares</em>. https://www.sri.gob.ec/rimpe</p>
+<p>Servicio de Rentas Internas. (2024). <em>Tabla de Impuesto a la Renta – Personas Naturales</em>. https://www.sri.gob.ec/impuesto-a-la-renta</p>
+
+<div class="firma-bloque">
+  <div class="firma-item">
+    <div class="firma-linea"></div>
+    <p><strong>Elaborado por:</strong></p>
+    <p>César Luis Camba Martínez</p>
+    <p>Estudiante Practicante</p>
+  </div>
+  <div class="firma-item">
+    <div class="firma-linea"></div>
+    <p><strong>Revisado por:</strong></p>
+    <p>MGs. Silvia Alexandra Medina Anchundia</p>
+    <p>Tutora Académica</p>
+  </div>
+  <div class="firma-item">
+    <div class="firma-linea"></div>
+    <p><strong>Supervisado por:</strong></p>
+    <p>MGs. Yolanda Clemencia Chalén Banchón</p>
+    <p>Supervisora Institucional</p>
+  </div>
+</div>
+
+</body>
+</html>
