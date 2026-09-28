@@ -17,10 +17,6 @@ Este repositorio contiene una aplicación desarrollada en HTML que presenta una 
 ```text
 .
 ├── index.html
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── img/
 ├── README.md
 └── ...
 ```
